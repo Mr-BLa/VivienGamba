@@ -1,19 +1,23 @@
 // INDEX.JS 
 
 
+import React from 'react'
+import ReactDOM from 'react-dom'
+import { BrowserRouter, Routes, Route } from "react-router-dom"
 
-// import React from 'react'
-// import ReactDOM from 'react-dom'
-// import { BrowserRouter, Routes, Route } from "react-router-dom"
-import React from 'react';
-import ReactDOM from 'react-dom/client';
+
+// // Import Css
 import '../src/css/index.css';
-import App from './components/App';
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-);
 
+// Import Pages
+import App from '../src/pages/App';
+
+
+ReactDOM.render(
+  <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<App />} />
+      </Routes>
+  </BrowserRouter>, 
+  document.getElementById('root'))
