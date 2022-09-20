@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: aqua;
 }
 
 code {
@@ -22,6 +23,7 @@ code {
   min-height: 5rem;
   height: 5rem;
   display: flex; 
+  background-color: blue;
 }
 
 #navigation {
@@ -29,11 +31,15 @@ code {
   align-items: center;
   min-height: 5rem;
   height: 5rem;
+  background-color: blueviolet;
+  justify-content: space-between;
+  padding: 0 1.314rem;
 }
 
 .link--home{
   min-height: 5rem;
   height: 5rem;
+  width: 100%;
 }
 
 .site-name-logo{
@@ -54,7 +60,7 @@ code {
 /* Dropdown Button */
 .dropbtn {
   cursor: pointer;
-  width: 2.2rem;
+  width: 1.8rem;
 
 }
 
@@ -78,8 +84,9 @@ code {
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   border-radius: 5px;
   z-index: 1;
-  top: 4.2rem;
-  right: 1.4rem;
+  width: 15rem;
+  top: 5.314rem;
+  right: 0.314rem;
 }
 
 /* Lien à l'intérieur du Dropdown */
@@ -96,7 +103,10 @@ code {
   border-radius: 5px;
 }
 
-
+/* Sous lien du Dropdown*/
+.link--sous-menu{
+  padding-left: 3rem;
+}
 
 
 /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */

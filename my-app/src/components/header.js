@@ -49,11 +49,11 @@ export default function Header() {
                                 <div id="myDropdown" className="dropdown-content">
                                     <Link to="/apropos" className="link--menu">À propos</Link>
                                     <Link to="/sculptures" className="link--menu">Sculptures</Link>
-                                        <Link to="/sculptures/saintElient" className="link--menu">         Saint Elient</Link>
-                                        <Link to="/sculptures/saintPer" className="link--menu">        Saint Per</Link>
-                                        <Link to="/sculptures/saintGuillaumePinchon" className="link--menu">       Saint Guillaume Pinchon</Link>
-                                        <Link to="/sculptures/saintTenenan" className="link--menu">        Saint Tenenan</Link>
-                                        <Link to="/sculptures/saintElouan" className="link--menu">     Saint Elouan</Link>
+                                        <Link to="/sculptures/saintElient" className="link--menu link--sous-menu">Saint Elient</Link>
+                                        <Link to="/sculptures/saintPer" className="link--menu link--sous-menu">Saint Per</Link>
+                                        <Link to="/sculptures/saintGuillaumePinchon" className="link--menu link--sous-menu">Saint Guillaume Pinchon</Link>
+                                        <Link to="/sculptures/saintTenenan" className="link--menu link--sous-menu">Saint Tenenan</Link>
+                                        <Link to="/sculptures/saintElouan" className="link--menu link--sous-menu">Saint Elouan</Link>
                                     <Link to="/contact" className="link--menu">Contact</Link>
                                 </div>
                     </div>
