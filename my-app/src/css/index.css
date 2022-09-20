@@ -5,7 +5,6 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: aqua;
 }
 
 code {
@@ -22,8 +21,7 @@ code {
   width: 100%;
   min-height: 5rem;
   height: 5rem;
-  display: flex; 
-  background-color: blue;
+  display: flex;
 }
 
 #navigation {
@@ -31,7 +29,6 @@ code {
   align-items: center;
   min-height: 5rem;
   height: 5rem;
-  background-color: blueviolet;
   justify-content: space-between;
   padding: 0 1.314rem;
 }
@@ -111,3 +108,15 @@ code {
 
 /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
 .show {display:block;}
+
+
+
+
+
+/**
+**      MAIN
+**/
+
+.home--photo{
+  background-size: cover;
+}
