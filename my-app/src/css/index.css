@@ -22,6 +22,10 @@ code {
   min-height: 5rem;
   height: 5rem;
   display: flex;
+  background-color: #ffff;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
 }
 
 #navigation {
@@ -117,6 +121,15 @@ code {
 **      MAIN
 **/
 
+.home--main{
+  width: 100vw;
+  height: calc(100vh - 5rem) ;
+  overflow: hidden;
+  position: relative;
+}
+
 .home--photo{
-  background-size: cover;
+  position: absolute;
+  top: -340px;
+  left: -540px;
 }
