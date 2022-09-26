@@ -13,107 +13,6 @@ code {
 }
 
 
-/**
-**      Header 
-**/
-
-#headerContainer {
-  width: 100%;
-  min-height: 5rem;
-  height: 5rem;
-  display: flex;
-  background-color: #ffff;
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0px;
-}
-
-#navigation {
-  display: flex;
-  align-items: center;
-  min-height: 5rem;
-  height: 5rem;
-  justify-content: space-between;
-  padding: 0 1.314rem;
-}
-
-.link--home{
-  min-height: 5rem;
-  height: 5rem;
-  width: 100%;
-}
-
-.site-name-logo{
-
-}
-
-.header--logo{
-  min-width: 198px;
-  max-width: 61.8%;
-}
-
-
-
-
-/**********/
-/*DROPDOWN*/
-
-/* Dropdown Button */
-.dropbtn {
-  cursor: pointer;
-  width: 1.8rem;
-
-}
-
-/* Dropdown button on hover & focus */
-.dropbtn:hover:after, .dropbtn:focus:after {
-  border-radius: 50px;
-}
-
-/* The container <div> - needed to position the dropdown content */
-.dropdown {
-  display: inline-flex;
-}
-
-/* Dropdown Content (Caché par défaut) */
-.dropdown-content {
-  display: none;
-  position: absolute;
-  flex-direction: column;
-  background-color:white;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  border-radius: 5px;
-  z-index: 1;
-  width: 15rem;
-  top: 5.314rem;
-  right: 0.314rem;
-}
-
-/* Lien à l'intérieur du Dropdown */
-.link--menu {
-  color: black;
-  padding: 1.2rem 1rem;
-  text-decoration: none;
-  display: block;
-}
-
-/* Change color of dropdown links on hover */
-.link--menu:hover {
-  background-color: #ddd;
-  border-radius: 5px;
-}
-
-/* Sous lien du Dropdown*/
-.link--sous-menu{
-  padding-left: 3rem;
-}
-
-
-/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
-.show {display:block;}
-
-
 
 
 
@@ -123,13 +22,14 @@ code {
 
 .home--main{
   width: 100vw;
-  height: calc(100vh - 5rem) ;
+  height: calc(100vh - 10rem) ;
   overflow: hidden;
   position: relative;
 }
 
 .home--photo{
   position: absolute;
-  top: -340px;
-  left: -540px;
+  width: 151%;
+  top: 0px;
+  left: -35px;
 }

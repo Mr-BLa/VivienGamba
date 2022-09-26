@@ -1,0 +1,23 @@
+/* #2a9988 */
+
+/**
+**      Footer
+**/
+
+
+#footerContainer {
+    width: 100%;
+    min-height: 5rem;
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2a9988;
+    font-family: 'Jost', sans-serif;
+}
+
+.marque-depose-vivien-gamba{
+    color: #224541;
+    text-decoration: none;
+}
+

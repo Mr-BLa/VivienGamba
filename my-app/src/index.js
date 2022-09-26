@@ -7,11 +7,13 @@ import { BrowserRouter, Routes, Route } from "react-router-dom"
 
 
 // // Import Css
-import '../src/css/index.css';
+import '../src/css/index.css'
+import '../src/css/header.css'
+import '../src/css/footer.css'
 
 
 // Import Pages
-import App from '../src/pages/App';
+import App from '../src/pages/App'
 
 
 ReactDOM.render(
