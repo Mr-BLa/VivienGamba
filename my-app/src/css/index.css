@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  font-family: -apple-system, BlinkMacSystemFont, 'Jost', sans-serif, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -21,15 +21,29 @@ code {
 **/
 
 .home--main{
+
+  /* position: relative; */
+  
+}
+
+.img-container {
   width: 100vw;
   height: calc(100vh - 10rem) ;
   overflow: hidden;
-  position: relative;
+  background: url(../images/vivien-gamba-home.webp) no-repeat center center fixed;
+  background-size: cover;
+  /* width: 192%; */
+}
+.home--photo{
+  /* position: absolute; */
+  /* background: url(../images/vivien-gamba-home.webp) no-repeat center center fixed;
+  background-size: cover;
+  width: 192%; */
+  /* top: 0px;
+  left: -130px;
+  z-index: 0; */
 }
 
-.home--photo{
-  position: absolute;
-  width: 151%;
-  top: 0px;
-  left: -35px;
-}
+
+
+
