@@ -4,7 +4,7 @@
 */
 
 import React from "react"
-import Menulogo from "../logos/bars-solid.svg"
+// import Menulogo from "../logos/bars-solid.svg"
 import MenulogoVert from "../logos/bars-solid green.svg"
 import { Link } from "react-router-dom"
 

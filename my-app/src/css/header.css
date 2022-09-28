@@ -78,8 +78,9 @@
     border-radius: 5px;
     z-index: 2;
     width: 15rem;
-    top: 5.314rem;
-    right: 0.314rem;
+    top: 5rem;
+    right: 1.314rem;
+    border-top: 3px solid #2A9988;
 }
 
 /* Lien à l'intérieur du Dropdown */
@@ -105,4 +106,17 @@
 /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
 .show {
     display:block;
+}
+
+/* Effet hover sur logo menu  */
+.header--menulogoVert{
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .2s ease;
+	transition: .2s ease;
+}
+
+.header--menulogoVert:hover{
+    -webkit-transform: scale(1.06);
+	transform: scale(1.06);
 }
