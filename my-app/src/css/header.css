@@ -81,6 +81,7 @@
     top: 5rem;
     right: 1.314rem;
     border-top: 3px solid #2A9988;
+
 }
 
 /* Lien à l'intérieur du Dropdown */
@@ -106,6 +107,9 @@
 /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
 .show {
     display:block;
+    animation: apparition 0.7s ease-out;
+    -webkit-animation: apparition 0.7s ease-out;
+    animation-fill-mode: forwards;
 }
 
 /* Effet hover sur logo menu  */
@@ -119,4 +123,17 @@
 .header--menulogoVert:hover{
     -webkit-transform: scale(1.06);
 	transform: scale(1.06);
+}
+
+/*Animation dropdown*/
+
+@keyframes apparition {
+    0% {
+        opacity:0;
+        transform:  translateY(15px);
+    }
+    100% {
+        opacity:1;
+        transform: translateY(0);
+    }
 }

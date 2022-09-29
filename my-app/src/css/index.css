@@ -20,11 +20,11 @@ code {
 **      MAIN
 **/
 
-.home--main{
+/* .home--main{
 
-  /* position: relative; */
+    position: relative; 
   
-}
+} */
 
 .img-container {
   width: 100vw;
@@ -34,15 +34,15 @@ code {
   background-size: cover;
   /* width: 192%; */
 }
-.home--photo{
-  /* position: absolute; */
-  /* background: url(../images/vivien-gamba-home.webp) no-repeat center center fixed;
+/* .home--photo{
+  position: absolute; 
+  background: url(../images/vivien-gamba-home.webp) no-repeat center center fixed;
   background-size: cover;
-  width: 192%; */
-  /* top: 0px;
+  width: 192%;
+  top: 0px;
   left: -130px;
-  z-index: 0; */
-}
+  z-index: 0;
+} */
 
 
 
