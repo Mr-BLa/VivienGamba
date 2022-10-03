@@ -110,58 +110,66 @@
 }
 
 .delay1 {
-    animation: apparition 0.7s ease-out;
-    -webkit-animation: apparition 0.7s ease-out;
+    animation: apparition 0.6s ease-out;
+    -webkit-animation: apparition 0.6s ease-out;
     animation-fill-mode: forwards;
+    visibility: hidden;
 }
 
 .delay2 {
-    animation: apparition 0.7s ease-out;
-    -webkit-animation: apparition 0.7s ease-out;
+    animation: apparition 0.6s ease-out;
+    -webkit-animation: apparition 0.6s ease-out;
     animation-fill-mode: forwards;
     animation-delay: 0.1s;
+    visibility: hidden;
 }
 
 .delay3 {
-    animation: apparition 0.7s ease-out;
-    -webkit-animation: apparition 0.7s ease-out;
+    animation: apparition 0.6s ease-out;
+    -webkit-animation: apparition 0.6s ease-out;
     animation-fill-mode: forwards;
     animation-delay: 0.2s;
+    visibility: hidden;
 }
 
 .delay4 {
-    animation: apparition 0.7s ease-out;
-    -webkit-animation: apparition 0.7s ease-out;
+    animation: apparition 0.6s ease-out;
+    -webkit-animation: apparition 0.6s ease-out;
     animation-fill-mode: forwards;
     animation-delay: 0.3s;
+    visibility: hidden;
 }
 
 .delay5 {
-    animation: apparition 0.7s ease-out;
-    -webkit-animation: apparition 0.7s ease-out;
+    animation: apparition 0.6s ease-out;
+    -webkit-animation: apparition 0.6s ease-out;
     animation-fill-mode: forwards;
     animation-delay: 0.4s;
+    visibility: hidden;
 }
 
 .delay6 {
-    animation: apparition 0.7s ease-out;
-    -webkit-animation: apparition 0.7s ease-out;
+    animation: apparition 0.6s ease-out;
+    -webkit-animation: apparition 0.6s ease-out;
     animation-fill-mode: forwards;
     animation-delay: 0.5s;
+    visibility: hidden;
 }
 
 .delay7 {
-    animation: apparition 0.7s ease-out;
-    -webkit-animation: apparition 0.7s ease-out;
+    animation: apparition 0.6s ease-out;
+    -webkit-animation: apparition 0.6s ease-out;
     animation-fill-mode: forwards;
     animation-delay: 0.6s;
+    visibility: hidden;
 }
 
 .delay8 {
-    animation: apparition 0.7s ease-out;
-    -webkit-animation: apparition 0.7s ease-out;
+    animation: apparition 0.6s ease-out;
+    -webkit-animation: apparition 0.6s ease-out;
     animation-fill-mode: forwards;
     animation-delay: 0.7s;
+    visibility: hidden;
 }
 
 /* Effet hover sur logo menu  */
@@ -194,7 +202,5 @@
         visibility: visible;
         transform: translateY(0);
     }
-
-    
 }
 
