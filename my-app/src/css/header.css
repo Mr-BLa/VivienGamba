@@ -106,10 +106,62 @@
 
 /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
 .show {
-    display:block;
+    display: block;
+}
+
+.delay1 {
     animation: apparition 0.7s ease-out;
     -webkit-animation: apparition 0.7s ease-out;
     animation-fill-mode: forwards;
+}
+
+.delay2 {
+    animation: apparition 0.7s ease-out;
+    -webkit-animation: apparition 0.7s ease-out;
+    animation-fill-mode: forwards;
+    animation-delay: 0.1s;
+}
+
+.delay3 {
+    animation: apparition 0.7s ease-out;
+    -webkit-animation: apparition 0.7s ease-out;
+    animation-fill-mode: forwards;
+    animation-delay: 0.2s;
+}
+
+.delay4 {
+    animation: apparition 0.7s ease-out;
+    -webkit-animation: apparition 0.7s ease-out;
+    animation-fill-mode: forwards;
+    animation-delay: 0.3s;
+}
+
+.delay5 {
+    animation: apparition 0.7s ease-out;
+    -webkit-animation: apparition 0.7s ease-out;
+    animation-fill-mode: forwards;
+    animation-delay: 0.4s;
+}
+
+.delay6 {
+    animation: apparition 0.7s ease-out;
+    -webkit-animation: apparition 0.7s ease-out;
+    animation-fill-mode: forwards;
+    animation-delay: 0.5s;
+}
+
+.delay7 {
+    animation: apparition 0.7s ease-out;
+    -webkit-animation: apparition 0.7s ease-out;
+    animation-fill-mode: forwards;
+    animation-delay: 0.6s;
+}
+
+.delay8 {
+    animation: apparition 0.7s ease-out;
+    -webkit-animation: apparition 0.7s ease-out;
+    animation-fill-mode: forwards;
+    animation-delay: 0.7s;
 }
 
 /* Effet hover sur logo menu  */
@@ -125,15 +177,24 @@
 	transform: scale(1.06);
 }
 
+
+
+
 /*Animation dropdown*/
 
 @keyframes apparition {
     0% {
         opacity:0;
+        visibility: hidden;
         transform:  translateY(15px);
+        
     }
     100% {
         opacity:1;
+        visibility: visible;
         transform: translateY(0);
     }
+
+    
 }
+
